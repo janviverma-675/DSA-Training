@@ -12,7 +12,7 @@ public class Solution {
 
     private void backtrack(String s, int start, List<String> current, List<List<String>> result) {
         
-        // BASE CASE
+        
         if (start == s.length()) {
             result.add(new ArrayList<>(current));
             return;
